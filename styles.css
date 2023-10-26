@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 33px auto;
+    background-color: rgb(9, 9, 160);
+    color: white;
+    display: flex;
+    width: 550px;
+    height: 350px;
+    padding: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+    border: 4px solid black;
+}
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+
+}
+
+.guest , .home {
+    margin: 0px 25px;
+}
+
+#home-btn , #guest-btn {
+    width: 140px;
+    height: 120px;
+    margin: 15px;
+    background-color: black;
+    color: red;
+    font-size: 50px;
+    font-family: sans-serif;
+    border-radius: 7px;
+
+}
+.operate > button{
+    width: 40px;
+    height: 45px;
+    margin: 2px;
+    background-color: whitesmoke;
+    border: 2px solid rgb(192, 191, 191);
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 3px;
+
+}
+
+
+.container-two {
+    margin: 10px auto;
+    background-color: rgb(9, 9, 160);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    height: 150px;
+    padding: 5px auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+    border: 4px solid black;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+.save-btn {
+    margin-top: 5px;
+    width: 150px;
+    height: 40px;
+    border: 2px solid black;
+    color: black;
+    background-color: aqua;
+    font-size: 23px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+#home-count , #guest-count {
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
